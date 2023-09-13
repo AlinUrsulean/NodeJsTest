@@ -1,0 +1,35 @@
+{
+   "name": "nodejstest",
+   "version": "1.0.0",
+   "description": "TestAssist",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AlinUrsulean/NodeJsTest.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/AlinUrsulean/NodeJsTest/issues"
+   },
+   "homepage": "https://github.com/AlinUrsulean/NodeJsTest#readme",
+   "dependencies": {
+      "bcrypt": "^5.1.1",
+      "body-parser": "^1.19.1",
+      "express": "^4.17.2",
+      "jsonwebtoken": "^9.0.2",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.17"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   }
+}
